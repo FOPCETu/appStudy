@@ -20,7 +20,8 @@ for (let i = 0; i < 2; i++) {
 		a != "" &&
 		b != "" &&
 		/*не пустая строка*/
-		a.length < 50
+		a.length < 50 &&
+		b.length < 50
 		/*не больше 50*/
 	) {
 		personalMovieDB.movies[a] = b;
